@@ -1,4 +1,4 @@
-#Brainfuck- Compiler
+# Brainfuck- Compiler
 
 An under development Brainfuck Compiler, developed in javascript html & css ( a basic frontend ).
 
