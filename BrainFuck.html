@@ -1,0 +1,31 @@
+﻿<html>
+    <head>
+        <link href="BrainFuck.css" rel="stylesheet" type="text/css">
+        <meta encoding = "UTF-8">
+        <title>Brainfuck+</title>
+    </head>
+    
+    <body>
+        <h1>Brainfuck+ compiler</h1>
+        <p id="cellsPresentation">[0][0][0][0][0][0][0][0]</p>
+        
+        <h5>Errors:</h5>
+        <ul id = "errorMessages"></ul>
+        
+        <div id ="compilerarea">
+            <h4>Compiler</h4>
+            <textarea id="codeInput"></textarea>
+        </div>
+        
+        <div id=inputsArea>
+            <h4>Inputs</h4>
+            <input id ="inputs">
+        </div>
+        <div id="consolearea">
+            <h4>Console</h4>
+            <textarea id="console"></textarea>
+        </div>
+        <script src="jquery.js" type="text/javascript"></script>
+        <script src="BrainFuck.js" type="text/javascript"></script>
+    </body>
+</html>

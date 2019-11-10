@@ -1,0 +1,29 @@
+﻿body{
+    background-color: beige;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+*{
+    padding:2px;
+    margin: 1px;
+}
+#codeInput{
+    width:50%;
+    height:40%;
+}
+textarea, input{
+    background-color:azure;
+
+}
+#inputs{
+    width:50%;
+}
+#console{
+    width:50%;
+    height: 25%;
+}
+h4{
+    text-decoration-style: solid;
+}
